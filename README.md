@@ -12,7 +12,7 @@
 | Enrollment No. | Name | GitHub Account | Role |
 |---|---|---|---|
 | **S24CSEU2318** | Ayush Tiwari | [@ayusht26](https://github.com/ayusht26) | Data & Pipeline Lead |
-| **S24CSEU2329** | Harsh Dhiman | [@HarshDhiman](https://github.com/HarshDhiman) | Model & Tracking Lead |
+| **S24CSEU2329** | Harsh Dhiman | [@harshhhhd](https://github.com/HarshDhiman) | Model & Tracking Lead |
 | **S24CSEU2688** | Deepanshi Pokhriyal | [@DeepanshiPokhriyal](https://github.com/DeepanshiPokhriyal) | Service & Ops Lead |
 
 ---
