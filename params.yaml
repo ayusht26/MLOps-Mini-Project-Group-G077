@@ -1,0 +1,26 @@
+data:
+  raw_train_path: "data/raw/train.csv"
+  raw_later_path: "data/raw/later.csv"
+  raw_holdout_path: "data/raw/holdout_features.csv"
+  processed_train_path: "data/processed/train_cleaned.csv"
+  reports_path: "reports/findings.yaml"
+  findings_path: "findings.yaml"
+
+audit:
+  group_column: "route_zone"
+  target_column: "delivery_min"
+  date_column: "date"
+  numeric_features:
+    - "distance_km"
+    - "tiffins"
+    - "handovers"
+    - "wait_at_station_min"
+    - "rider_age"
+    - "temp_c"
+  categorical_features:
+    - "transport"
+    - "route_zone"
+
+model:
+  random_state: 42
+  test_size: 0.2
