@@ -13,7 +13,7 @@
 |---|---|---|---|
 | **S24CSEU2318** | Ayush Tiwari | [@ayusht26](https://github.com/ayusht26) | Data & Pipeline Lead |
 | **S24CSEU2329** | Harsh Dhiman | [@harshhhhd](https://github.com/harshhhhd) | Model & Tracking Lead |
-| **S24CSEU2688** | Deepanshi Pokhriyal | [@DeepanshiPokhriyal](https://github.com/DeepanshiPokhriyal) | Service & Ops Lead |
+| **S24CSEU2688** | Deepanshi Pokhriyal | [@ddeepanshii09](https://github.com/ddeepanshii09) | Service & Ops Lead |
 
 ---
 
