@@ -24,3 +24,30 @@ audit:
 model:
   random_state: 42
   test_size: 0.2
+
+cleaning:
+  leak_column: "delivered_min_from_receipt"
+  unit_fix:
+    column: "wait_at_station_min"
+    group_column: "route_zone"
+    group_value: "Central"
+    factor: 60
+  stuck_sensor:
+    column: "rider_age"
+    value: 33
+    start_date: "2026-03-08"
+    end_date: "2026-03-29"
+
+tracking:
+  uri: "sqlite:///mlflow.db"
+  experiment_name: "tiffin-delivery-time"
+  registered_model_name: "mp160-delivery-model"
+  champion_alias: "champion"
+  model_path: "models/model.joblib"
+
+training:
+  valid_fraction: 0.2
+  runs:
+    - {name: "ridge_a1", model: "ridge", params: {alpha: 1.0}}
+    - {name: "rf_100", model: "random_forest", params: {n_estimators: 100, max_depth: 8, random_state: 42}}
+    - {name: "gbr_200", model: "gradient_boosting", params: {n_estimators: 200, learning_rate: 0.05, max_depth: 3, random_state: 42}}
